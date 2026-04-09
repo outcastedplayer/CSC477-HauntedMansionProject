@@ -56,14 +56,19 @@ public class OfficePuzzle : MonoBehaviour
 
     public void SelectPageDirectly()
     {
-        if (puzzleSolved) return;
+        // 1. THIS IS THE GUARD: If the puzzle is already solved, stop right here!
+        if (puzzleSolved)
+        {
+            Debug.Log("<color=white>Puzzle already solved. No more keys for you!</color>");
+            return;
+        }
+
         Sprite currentSprite = allBookPages[currentPageIndex];
 
         if (!selectedSprites.Contains(currentSprite))
         {
             selectedSprites.Add(currentSprite);
-            // DEBUG: Shows you which page you just picked
-            Debug.Log($"<color=cyan>Selected Page {currentPageIndex + 1}</color> (Index {currentPageIndex}). Total selected: {selectedSprites.Count}/3");
+            Debug.Log($"<color=cyan>Selected Page {currentPageIndex + 1}</color>. Total: {selectedSprites.Count}/3");
         }
         else
         {
@@ -103,11 +108,25 @@ public class OfficePuzzle : MonoBehaviour
 
     void SpawnKey()
     {
+        GameObject newKey = Instantiate(keyPrefab, keySpawnPoint.position, keySpawnPoint.rotation);
+        newKey.transform.localScale = new Vector3(1f, 1f, 1f); // Forces it to a visible size
         puzzleSolved = true;
         Debug.Log("<color=green>Puzzle Solved! Spawning Key.</color>");
 
         if (keyPrefab != null && keySpawnPoint != null)
-            Instantiate(keyPrefab, keySpawnPoint.position, keySpawnPoint.rotation);
+        {
+            // Instantiate the key exactly at the spawn point's position
+            GameObject spawnedKey = Instantiate(keyPrefab, keySpawnPoint.position, keySpawnPoint.rotation);
+
+            // Name it clearly so you can find it in the Hierarchy while testing
+            spawnedKey.name = "PUZZLE_REWARD_KEY";
+
+            Debug.Log($"Key created at: {keySpawnPoint.position}");
+        }
+        else
+        {
+            Debug.LogError("Key Prefab or Spawn Point is missing in the Inspector!");
+        }
 
         bookUI.SetActive(false);
 
