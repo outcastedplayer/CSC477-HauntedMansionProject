@@ -730,7 +730,7 @@ MonoBehaviour:
   - Packages/com.tripolygon.umodeler-x/Editor/Resources/Materials/UModelerX_Gray_URP.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_9a0a204c-22a2-4ffd-a947-03f91355fff7
+    name: UM_OperatedMesh_c1767109-a780-47ef-b6d7-4247db351f0a
     skinnedMesh: 0
     sharedMesh: {fileID: 844788331}
     buidVersion:
@@ -743,7 +743,7 @@ MonoBehaviour:
       OptimizedTopology: 0
       TransformVersion: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: 9a0a204c-22a2-4ffd-a947-03f91355fff7
+  sourceMeshRendererGUID: c1767109-a780-47ef-b6d7-4247db351f0a
   guid: 28393787-cfbc-4dd1-996c-7105de7b24d4
   localOptions:
     RecalculateTangents: 0
@@ -1089,7 +1089,7 @@ MonoBehaviour:
   - Packages/com.tripolygon.umodeler-x/Editor/Resources/Materials/UModelerX_Gray_URP.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_1c470575-14d2-4217-bcd9-1198b17b5b18
+    name: UM_OperatedMesh_9ecb7468-ecab-4305-8a64-ee8003141a08
     skinnedMesh: 0
     sharedMesh: {fileID: 588876998}
     buidVersion:
@@ -1102,7 +1102,7 @@ MonoBehaviour:
       OptimizedTopology: 0
       TransformVersion: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: 1c470575-14d2-4217-bcd9-1198b17b5b18
+  sourceMeshRendererGUID: 9ecb7468-ecab-4305-8a64-ee8003141a08
   guid: 81f63256-bb9c-4e53-a479-8d8be5e8aeed
   localOptions:
     RecalculateTangents: 0
@@ -1195,51 +1195,6 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1157907039}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &300394304
-GameObject:
-  m_ObjectHideFlags: 3
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 300394306}
-  - component: {fileID: 300394305}
-  m_Layer: 0
-  m_Name: af607355-d0a0-47af-8f5f-f81817a1f3de
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &300394305
-MonoBehaviour:
-  m_ObjectHideFlags: 3
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 300394304}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: -521311792, guid: 355474d781e5561489e3595e39866770, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Tripolygon.UModelerX.Runtime.dll::Tripolygon.UModelerX.Runtime.UModelerXCurveCache
-  items: []
---- !u!4 &300394306
-Transform:
-  m_ObjectHideFlags: 3
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 300394304}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &301653984
 GameObject:
@@ -1547,7 +1502,7 @@ MonoBehaviour:
   - Assets/Materials-Textures/Materials/wood.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_6fa2c12f-517b-478f-8509-ffc5c7acf851
+    name: UM_OperatedMesh_14825d0f-63f9-44d0-9d06-0803b77ee755
     skinnedMesh: 0
     sharedMesh: {fileID: 702043782}
     buidVersion:
@@ -1560,7 +1515,7 @@ MonoBehaviour:
       OptimizedTopology: 0
       TransformVersion: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: 6fa2c12f-517b-478f-8509-ffc5c7acf851
+  sourceMeshRendererGUID: 14825d0f-63f9-44d0-9d06-0803b77ee755
   guid: 43c36c14-661f-486f-aedd-f7c3424744c1
   localOptions:
     RecalculateTangents: 0
@@ -1998,7 +1953,7 @@ MonoBehaviour:
   - Assets/Materials-Textures/Materials/wood.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_52f2cf95-82a1-4719-a4ae-ab40624c817b
+    name: UM_OperatedMesh_31f33d2c-8393-480f-9879-203299edf70f
     skinnedMesh: 0
     sharedMesh: {fileID: 1423065739}
     buidVersion:
@@ -2011,7 +1966,7 @@ MonoBehaviour:
       OptimizedTopology: 0
       TransformVersion: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: 52f2cf95-82a1-4719-a4ae-ab40624c817b
+  sourceMeshRendererGUID: 31f33d2c-8393-480f-9879-203299edf70f
   guid: 43c36c14-661f-486f-aedd-f7c3424744c1
   localOptions:
     RecalculateTangents: 0
@@ -2168,7 +2123,7 @@ MonoBehaviour:
   - Assets/Materials-Textures/Materials/wood.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_b5c5d6cb-268c-482b-83a8-b2da6fe956af
+    name: UM_OperatedMesh_3133a4b1-a578-4a9d-bd2b-fda4b67903cc
     skinnedMesh: 0
     sharedMesh: {fileID: 1554610610}
     buidVersion:
@@ -2181,7 +2136,7 @@ MonoBehaviour:
       OptimizedTopology: 0
       TransformVersion: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: b5c5d6cb-268c-482b-83a8-b2da6fe956af
+  sourceMeshRendererGUID: 3133a4b1-a578-4a9d-bd2b-fda4b67903cc
   guid: 43c36c14-661f-486f-aedd-f7c3424744c1
   localOptions:
     RecalculateTangents: 0
@@ -4235,51 +4190,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 841374105}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
---- !u!1 &842668814
-GameObject:
-  m_ObjectHideFlags: 3
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 842668816}
-  - component: {fileID: 842668815}
-  m_Layer: 0
-  m_Name: 4e1c44e9-85da-4284-aa2d-ebae543692b3
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &842668815
-MonoBehaviour:
-  m_ObjectHideFlags: 3
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 842668814}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: -521311792, guid: 355474d781e5561489e3595e39866770, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Tripolygon.UModelerX.Runtime.dll::Tripolygon.UModelerX.Runtime.UModelerXCurveCache
-  items: []
---- !u!4 &842668816
-Transform:
-  m_ObjectHideFlags: 3
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 842668814}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!43 &844788331
 Mesh:
   m_ObjectHideFlags: 0
@@ -4750,7 +4660,7 @@ MonoBehaviour:
   - Assets/Materials-Textures/Materials/wood.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_4d907fb6-c1dd-4b6d-aa03-63ad8f8d4017
+    name: UM_OperatedMesh_a5683146-ee95-4642-aa52-11bfe56b09b7
     skinnedMesh: 0
     sharedMesh: {fileID: 545067524}
     buidVersion:
@@ -4763,7 +4673,7 @@ MonoBehaviour:
       OptimizedTopology: 0
       TransformVersion: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: 4d907fb6-c1dd-4b6d-aa03-63ad8f8d4017
+  sourceMeshRendererGUID: a5683146-ee95-4642-aa52-11bfe56b09b7
   guid: 43c36c14-661f-486f-aedd-f7c3424744c1
   localOptions:
     RecalculateTangents: 0
@@ -4920,7 +4830,7 @@ MonoBehaviour:
   - Assets/Materials-Textures/Materials/wood.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_fb8d082a-2f2c-41a3-bcf4-5a4eb048b2d7
+    name: UM_OperatedMesh_f55e5e5e-3bde-4358-a97a-267fa3dd3a12
     skinnedMesh: 0
     sharedMesh: {fileID: 1912374620}
     buidVersion:
@@ -4933,7 +4843,7 @@ MonoBehaviour:
       OptimizedTopology: 0
       TransformVersion: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: fb8d082a-2f2c-41a3-bcf4-5a4eb048b2d7
+  sourceMeshRendererGUID: f55e5e5e-3bde-4358-a97a-267fa3dd3a12
   guid: 43c36c14-661f-486f-aedd-f7c3424744c1
   localOptions:
     RecalculateTangents: 0
@@ -4992,51 +4902,6 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 1912374620}
---- !u!1 &979092361
-GameObject:
-  m_ObjectHideFlags: 3
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 979092363}
-  - component: {fileID: 979092362}
-  m_Layer: 0
-  m_Name: 26468647-85f1-471b-ace4-3f3aefdfeb82
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &979092362
-MonoBehaviour:
-  m_ObjectHideFlags: 3
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 979092361}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: -521311792, guid: 355474d781e5561489e3595e39866770, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Tripolygon.UModelerX.Runtime.dll::Tripolygon.UModelerX.Runtime.UModelerXCurveCache
-  items: []
---- !u!4 &979092363
-Transform:
-  m_ObjectHideFlags: 3
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 979092361}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1002412082
 GameObject:
   m_ObjectHideFlags: 0
@@ -5749,7 +5614,7 @@ MonoBehaviour:
   - Assets/Materials-Textures/Materials/SteelDoor.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_b3972ab3-8bbd-4386-8abb-34602866a9a1
+    name: UM_OperatedMesh_da9c503c-434f-4b82-b2bd-db5d261b3625
     skinnedMesh: 0
     sharedMesh: {fileID: 757247998}
     buidVersion:
@@ -5762,7 +5627,7 @@ MonoBehaviour:
       OptimizedTopology: 0
       TransformVersion: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: b3972ab3-8bbd-4386-8abb-34602866a9a1
+  sourceMeshRendererGUID: da9c503c-434f-4b82-b2bd-db5d261b3625
   guid: a88a924b-a715-4dbb-b01f-718d225ccf37
   localOptions:
     RecalculateTangents: 0
@@ -6361,51 +6226,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 8767161660090632786, guid: 8b64019a82a0aed4fa925df8188cd4c7, type: 3}
   m_PrefabInstance: {fileID: 1198431816}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &1234457141
-GameObject:
-  m_ObjectHideFlags: 3
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1234457143}
-  - component: {fileID: 1234457142}
-  m_Layer: 0
-  m_Name: 4a91347f-322a-4e3a-a1f8-58d5f5bd9086
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &1234457142
-MonoBehaviour:
-  m_ObjectHideFlags: 3
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1234457141}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: -521311792, guid: 355474d781e5561489e3595e39866770, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Tripolygon.UModelerX.Runtime.dll::Tripolygon.UModelerX.Runtime.UModelerXCurveCache
-  items: []
---- !u!4 &1234457143
-Transform:
-  m_ObjectHideFlags: 3
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1234457141}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1248429744
 GameObject:
   m_ObjectHideFlags: 0
@@ -6550,7 +6370,7 @@ MonoBehaviour:
   - Assets/Materials-Textures/Materials/Steel.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_2629db70-e33f-4511-abe2-245ae8fe535f
+    name: UM_OperatedMesh_c3647ced-1bda-4314-8169-6d0c66689a96
     skinnedMesh: 0
     sharedMesh: {fileID: 725708953}
     buidVersion:
@@ -6563,7 +6383,7 @@ MonoBehaviour:
       OptimizedTopology: 0
       TransformVersion: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: 2629db70-e33f-4511-abe2-245ae8fe535f
+  sourceMeshRendererGUID: c3647ced-1bda-4314-8169-6d0c66689a96
   guid: 1e553dac-933f-4bc4-bd6f-fd42b3f707ab
   localOptions:
     RecalculateTangents: 0
@@ -6737,7 +6557,7 @@ MonoBehaviour:
   - Packages/com.tripolygon.umodeler-x/Editor/Resources/Materials/UModelerX_Gray_URP.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_87a932b8-14ac-42ec-819a-97de1c7f2e62
+    name: UM_OperatedMesh_fe3c724a-0be0-4a8c-bb31-ea1ad9a3e219
     skinnedMesh: 0
     sharedMesh: {fileID: 1137635230}
     buidVersion:
@@ -6750,7 +6570,7 @@ MonoBehaviour:
       OptimizedTopology: 0
       TransformVersion: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: 87a932b8-14ac-42ec-819a-97de1c7f2e62
+  sourceMeshRendererGUID: fe3c724a-0be0-4a8c-bb31-ea1ad9a3e219
   guid: cc681038-0de6-4673-af6d-3b238463b429
   localOptions:
     RecalculateTangents: 0
@@ -8246,7 +8066,7 @@ MonoBehaviour:
   - Assets/Materials-Textures/Materials/wood.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_5f4612ff-9a0e-4ad8-9b41-3d4dc7a10681
+    name: UM_OperatedMesh_019f26e8-72a4-47a7-8e7b-a58dadb1f170
     skinnedMesh: 0
     sharedMesh: {fileID: 1966691350}
     buidVersion:
@@ -8259,7 +8079,7 @@ MonoBehaviour:
       OptimizedTopology: 0
       TransformVersion: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: 5f4612ff-9a0e-4ad8-9b41-3d4dc7a10681
+  sourceMeshRendererGUID: 019f26e8-72a4-47a7-8e7b-a58dadb1f170
   guid: 43c36c14-661f-486f-aedd-f7c3424744c1
   localOptions:
     RecalculateTangents: 0
@@ -9058,7 +8878,7 @@ MonoBehaviour:
   - Assets/Materials-Textures/Materials/wood.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_cd4cf957-6b9d-4fe8-9ed9-6689521ea396
+    name: UM_OperatedMesh_99d5f975-6cf4-41d1-8786-f1351af173e2
     skinnedMesh: 0
     sharedMesh: {fileID: 208719713}
     buidVersion:
@@ -9071,7 +8891,7 @@ MonoBehaviour:
       OptimizedTopology: 0
       TransformVersion: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: cd4cf957-6b9d-4fe8-9ed9-6689521ea396
+  sourceMeshRendererGUID: 99d5f975-6cf4-41d1-8786-f1351af173e2
   guid: 43c36c14-661f-486f-aedd-f7c3424744c1
   localOptions:
     RecalculateTangents: 0
@@ -9672,7 +9492,7 @@ MonoBehaviour:
   - Packages/com.tripolygon.umodeler-x/Editor/Resources/Materials/UModelerX_Gray_URP.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_b703bb8c-e11b-429f-b095-5f2a22ee2a55
+    name: UM_OperatedMesh_1432d41a-e734-4c1e-8a29-dd934c9f5c00
     skinnedMesh: 0
     sharedMesh: {fileID: 1318376531}
     buidVersion:
@@ -9685,7 +9505,7 @@ MonoBehaviour:
       OptimizedTopology: 0
       TransformVersion: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: b703bb8c-e11b-429f-b095-5f2a22ee2a55
+  sourceMeshRendererGUID: 1432d41a-e734-4c1e-8a29-dd934c9f5c00
   guid: 811875d7-7b53-421b-bdac-1dde12b08a13
   localOptions:
     RecalculateTangents: 0
@@ -10314,7 +10134,7 @@ MonoBehaviour:
   - Packages/com.unity.render-pipelines.universal/Runtime/Materials/Lit.mat
   currentMaterialIndex: -1
   renderableMesh:
-    name: UM_OperatedMesh_32bcb5fa-55f0-4934-9d74-65fc9a6646a3
+    name: UM_OperatedMesh_d693eea1-4579-4384-970a-20702e400204
     skinnedMesh: 0
     sharedMesh: {fileID: 1323031786}
     buidVersion:
@@ -10327,7 +10147,7 @@ MonoBehaviour:
       OptimizedTopology: 0
       TransformVersion: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: 32bcb5fa-55f0-4934-9d74-65fc9a6646a3
+  sourceMeshRendererGUID: d693eea1-4579-4384-970a-20702e400204
   guid: d1941cf0-bce2-49b3-857c-c8d291876d05
   localOptions:
     RecalculateTangents: 0
@@ -10393,6 +10213,135 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 0.33543396, y: 0.39728832, z: 0.18329078}
   m_Center: {x: 2.5047836, y: 4.791087, z: 0.1376659}
+--- !u!1 &1938698738
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1938698740}
+  - component: {fileID: 1938698739}
+  m_Layer: 0
+  m_Name: AmbientMusic
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!82 &1938698739
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1938698738}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 0}
+  m_Resource: {fileID: 8300000, guid: 25e1e2dd8611ae64d96c92083b78a303, type: 3}
+  m_PlayOnAwake: 1
+  m_Volume: 0.459
+  m_Pitch: 1
+  Loop: 1
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+--- !u!4 &1938698740
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1938698738}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 503.3651, y: 9.4438, z: 408.14404}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1938840141 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 6073776670961928309, guid: fdcb97c6f3a668c4d850d6e17771b298, type: 3}
@@ -10879,6 +10828,10 @@ PrefabInstance:
       propertyPath: m_LocalPosition.z
       value: -23.948792
       objectReference: {fileID: 0}
+    - target: {fileID: 4244626405643678211, guid: 035bf1ba97d19214580cfe6f5a29fdc3, type: 3}
+      propertyPath: cursorLocked
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4253012990419024490, guid: 035bf1ba97d19214580cfe6f5a29fdc3, type: 3}
       propertyPath: m_LocalScale.y
       value: 1.5
@@ -11021,7 +10974,135 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 5126527961139664765, guid: 035bf1ba97d19214580cfe6f5a29fdc3, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1788082737}
+    - targetCorrespondingSourceObject: {fileID: 453084650579209855, guid: 035bf1ba97d19214580cfe6f5a29fdc3, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2001580522}
+    - targetCorrespondingSourceObject: {fileID: 453084650579209855, guid: 035bf1ba97d19214580cfe6f5a29fdc3, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2001580521}
   m_SourcePrefab: {fileID: 100100000, guid: 035bf1ba97d19214580cfe6f5a29fdc3, type: 3}
+--- !u!1 &2001580520 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 453084650579209855, guid: 035bf1ba97d19214580cfe6f5a29fdc3, type: 3}
+  m_PrefabInstance: {fileID: 2001580519}
+  m_PrefabAsset: {fileID: 0}
+--- !u!82 &2001580521
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2001580520}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 0}
+  m_Resource: {fileID: 0}
+  m_PlayOnAwake: 0
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+--- !u!114 &2001580522
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2001580520}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 53a18d044ae071f43ba28cbf63aa7427, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PlayerFootsteps
+  footstepSource: {fileID: 2001580521}
+  footstepSounds:
+  - {fileID: 8300000, guid: 72f526a6a9890f643a88e85a61c86c8a, type: 3}
+  - {fileID: 8300000, guid: 85016e0f2b01da248b9663dd49a161b0, type: 3}
+  - {fileID: 8300000, guid: 186de84b3207156479abe98f4958fed0, type: 3}
+  - {fileID: 8300000, guid: 1a91fcd19acf1e54bba0945d9f390849, type: 3}
+  - {fileID: 8300000, guid: 14e8a8d2158bec840b56c54f5266e692, type: 3}
+  stepDelay: 0.5
 --- !u!1 &2008846052
 GameObject:
   m_ObjectHideFlags: 0
@@ -11232,7 +11313,7 @@ MonoBehaviour:
   - Assets/Materials-Textures/Materials/wood.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_bbb77ca4-5345-4a4c-8a0d-b93a618f1641
+    name: UM_OperatedMesh_8c87f888-764c-496b-8ca8-89e4ca7299bd
     skinnedMesh: 0
     sharedMesh: {fileID: 1064269986}
     buidVersion:
@@ -11245,7 +11326,7 @@ MonoBehaviour:
       OptimizedTopology: 0
       TransformVersion: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: bbb77ca4-5345-4a4c-8a0d-b93a618f1641
+  sourceMeshRendererGUID: 8c87f888-764c-496b-8ca8-89e4ca7299bd
   guid: 43c36c14-661f-486f-aedd-f7c3424744c1
   localOptions:
     RecalculateTangents: 0
@@ -12524,7 +12605,4 @@ SceneRoots:
   - {fileID: 9073898608523938185}
   - {fileID: 1668113523}
   - {fileID: 1002412086}
-  - {fileID: 300394306}
-  - {fileID: 979092363}
-  - {fileID: 842668816}
-  - {fileID: 1234457143}
+  - {fileID: 1938698740}
