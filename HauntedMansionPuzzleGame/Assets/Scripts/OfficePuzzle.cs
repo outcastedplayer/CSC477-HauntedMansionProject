@@ -108,28 +108,10 @@ public class OfficePuzzle : MonoBehaviour
 
     void SpawnKey()
     {
-        GameObject newKey = Instantiate(keyPrefab, keySpawnPoint.position, keySpawnPoint.rotation);
-        newKey.transform.localScale = new Vector3(1f, 1f, 1f); // Forces it to a visible size
+        GetComponent<KeyRevealer>().RevealKey();
         puzzleSolved = true;
         Debug.Log("<color=green>Puzzle Solved! Spawning Key.</color>");
-
-        if (keyPrefab != null && keySpawnPoint != null)
-        {
-            // Instantiate the key exactly at the spawn point's position
-            GameObject spawnedKey = Instantiate(keyPrefab, keySpawnPoint.position, keySpawnPoint.rotation);
-
-            // Name it clearly so you can find it in the Hierarchy while testing
-            spawnedKey.name = "PUZZLE_REWARD_KEY";
-
-            Debug.Log($"Key created at: {keySpawnPoint.position}");
-        }
-        else
-        {
-            Debug.LogError("Key Prefab or Spawn Point is missing in the Inspector!");
-        }
-
         bookUI.SetActive(false);
-
         // Lock cursor back for movement
         Cursor.lockState = CursorLockMode.Locked;
         Cursor.visible = false;
