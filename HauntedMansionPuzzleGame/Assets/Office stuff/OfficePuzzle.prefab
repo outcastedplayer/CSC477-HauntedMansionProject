@@ -1,0 +1,69 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1333018401047644532
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1744611241268353895}
+  - component: {fileID: 6255077260040930980}
+  m_Layer: 0
+  m_Name: OfficePuzzle
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1744611241268353895
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1333018401047644532}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 602.2569, y: 0.000015258789, z: 1062.1324}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6255077260040930980
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1333018401047644532}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 085893a615bd0b444a38045977e2c22f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::OfficePuzzle
+  bookUI: {fileID: 0}
+  pageImageDisplay: {fileID: 0}
+  allBookPages:
+  - {fileID: 21300000, guid: f1b9f636e590efd49bc1676df74e0087, type: 3}
+  - {fileID: 21300000, guid: 7d01ac9c59c539349a1fe0cfd6447513, type: 3}
+  - {fileID: 21300000, guid: 0511b94ef9d422b48925b406ead10aa9, type: 3}
+  - {fileID: 21300000, guid: 5d5cff683ad37fa40a8eb9e212533e63, type: 3}
+  - {fileID: 21300000, guid: 32f5844b0a000d846a042842271d2c5c, type: 3}
+  - {fileID: 21300000, guid: 5c5b2663dc4cd1c4cbfdfc40853168ed, type: 3}
+  - {fileID: 21300000, guid: b4dc1b626314d0f4888de97d000c35a7, type: 3}
+  - {fileID: 21300000, guid: 318486cb60817e746aff5809da12982e, type: 3}
+  - {fileID: 21300000, guid: ccb842b82a722c24e90ef0c45e6b6d01, type: 3}
+  - {fileID: 21300000, guid: 0cfa678d367ac3f4db7d31221227e31d, type: 3}
+  - {fileID: 21300000, guid: a791c78ef51e5bd4090d88c32bc6630f, type: 3}
+  - {fileID: 21300000, guid: 24065cc066f65934f9c37869da5f7430, type: 3}
+  - {fileID: 21300000, guid: bd51084bc6078e4419e263f59afcb4a6, type: 3}
+  - {fileID: 21300000, guid: 7cdce983245f93b4591c8601aaeaf742, type: 3}
+  doorHintSprites:
+  - {fileID: 21300000, guid: 5d5cff683ad37fa40a8eb9e212533e63, type: 3}
+  - {fileID: 21300000, guid: 7cdce983245f93b4591c8601aaeaf742, type: 3}
+  - {fileID: 21300000, guid: 0cfa678d367ac3f4db7d31221227e31d, type: 3}
+  keyPrefab: {fileID: 8347728318511008789, guid: 26ff6a714d815aa449dad071aa4fdeb2, type: 3}
+  keySpawnPoint: {fileID: 0}
