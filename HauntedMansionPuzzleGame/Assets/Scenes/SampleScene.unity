@@ -5937,6 +5937,51 @@ Transform:
   m_Children: []
   m_Father: {fileID: 679997822}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1651386444
+GameObject:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1651386446}
+  - component: {fileID: 1651386445}
+  m_Layer: 0
+  m_Name: 784cbd1e-abb9-43b3-b3c0-5cc0f4a657f5
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1651386445
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1651386444}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -521311792, guid: 355474d781e5561489e3595e39866770, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Tripolygon.UModelerX.Runtime.dll::Tripolygon.UModelerX.Runtime.UModelerXCurveCache
+  items: []
+--- !u!4 &1651386446
+Transform:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1651386444}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1659951802
 GameObject:
   m_ObjectHideFlags: 3
@@ -7119,6 +7164,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1435568747991887863, guid: f6a7eb2d86c53d344a9f46eedeede39d, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 914cf9af3728c604ea8bab9779007ce3, type: 2}
     - target: {fileID: 4174654469945693703, guid: f6a7eb2d86c53d344a9f46eedeede39d, type: 3}
       propertyPath: m_LocalPosition.x
       value: 481.6224
@@ -7176,6 +7225,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1677122926139148721, guid: 026495dd843fd074a82380fae4423a41, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 914cf9af3728c604ea8bab9779007ce3, type: 2}
     - target: {fileID: 4691548221302765055, guid: 026495dd843fd074a82380fae4423a41, type: 3}
       propertyPath: m_LocalPosition.x
       value: 475.49008
@@ -7316,3 +7369,4 @@ SceneRoots:
   - {fileID: 1510994381}
   - {fileID: 1440574340}
   - {fileID: 831583811}
+  - {fileID: 1651386446}
